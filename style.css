@@ -1,3 +1,5 @@
+@import "https://fonts.googleapis.com/css2?family=Pangolin&display=swap";
+@import "https://fonts.googleapis.com/css2?family=Dancing+Script&family=Pangolin&display=swap";
 * {
     margin: 0;
     padding: 0;
@@ -28,4 +30,15 @@ header div a {
 header div a:hover {
     color: #50fa7b;
     transition: color 700ms;
+}
+
+#wrapper {
+    text-align: center;
+    padding: 32px;
+}
+
+#wrapper img {
+    border-radius: 50%;
+    border: solid greenyellow;
+    margin: 32px;
 }
