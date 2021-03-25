@@ -1,9 +1,7 @@
 #include <stdio.h>
 
 int main() {
-	int numero, soma = 0;
-	printf("Digita o numero desejado: ");
-	scanf_s("%d", &numero);
+	int numero, soma = 0;	
 	do {
 		printf("Digita o numero desejado: ");
 		scanf_s("%d", &numero);
