@@ -1,80 +1,62 @@
-@import "https://fonts.googleapis.com/css2?family=Pangolin&display=swap";
-@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+ @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100;600&display=swap');
+ @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100;600&display=swap');
+ @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100;400;600&display=swap');
 
-:root {
-    --color-green:#178533;
-}
 * {
     margin: 0;
-    padding: 0;
-    border: 0;
-}
-body {
-    background: #4e6ca3b6;
-    color: rgb(236, 243, 238);
-    font-family: 'Dancing Script', cursive;
-    font-size: 24px;
-}
-header {
-    padding: 32px;
-    border-bottom: 1px solid #333;
-    background: rgba(0, 0, 0, 0.1);
-    font-family: 'Oswald', sans-serif;
-}
-header div {
     text-align: center;
-}
-.links a {
-    color: rgba(108, 110, 82, 0.959);
-    font-size: 18px;
-    line-height: 28px;
-    margin: 0 16px;
-    text-decoration: none;
-}
-.links a:hover {
-    color: var(--color-green);
-    transition: color 700ms;
+    background-color: darkmagenta;
+
 }
 
-#wrapper {
-    text-align: center;
-    padding: 32px;
+#container {
+    width: 200px;
 }
 
-#wrapper img {
-    border-radius: 100%;
-    border: solid var(--color-green);;
-    margin: 32px;
-    height: 250px;
+.m-40 {
+    margin: 40px;
 }
 
-#wrapper div id {
-    border-radius: 100%;
-    border: solid var(--color-green);
-    margin: 32px;
-}
-
-#wrapper h1 {
-    font-size: 42px;
-    line-height: 52px;
+p {
+    color:rgb(16, 113, 210);
+    font-size: 30px;
     font-weight: bold;
+    text-align: left, end;
+    font-family: 'Raleway', sans-serif;
+
+}
+.title {
+    font-family: 'Raleway', sans-serif;
+    color: darkred;
+    text-align: center;
+    font-weight: bold;
+    font-size: 60px;
+    background: darkorchid;
+}
+h1 { 
+    color: darkmagenta;
+    font-size: 60px;
+    background: darkorchid;
+    text-align: center;
+    border: 1px solid gray;
+    margin: 200px;
+    padding: 60px;
+    font-family: 'Raleway', sans-serif;
+}
+strong {
+    color: darkmagenta;
+    font-size: 60px;
+    background: darkorchid;
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
 }
 
-#wrapper h1 {
-    font-size: 24px;
-    line-height: 34px;
-    font-weight: normal;
-    margin-top: 8px;
-    opacity: 0.8;
+button {
+    color:blue;
+    font-size: 20px; 
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+    align-items: center;
+    accent-color: darkred;
 }
 
-#wrapper p {
-    max-width: 800px;
-    margin: 7px auto;
-    font-size: 24px;
-    line-height: 34px;
-}
-
-#wrapper p a {
-    color: var(--color-green);
-}
