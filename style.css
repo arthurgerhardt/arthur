@@ -44,9 +44,9 @@ h1 {
     font-family: 'Raleway', sans-serif;
 }
 strong {
-    color: darkmagenta;
-    font-size: 60px;
-    background: darkorchid;
+    font-style: oblique;
+    font-display: rgb(74, 74, 230);
+    font-size: 30px;
     text-align: center;
     font-family: 'Raleway', sans-serif;
 }
