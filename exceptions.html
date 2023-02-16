@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exceções em JavaScript</title>
+    <link rel="javascript" href="javascript.js">
+</head>
+<body>
+    <p>Informe um número entre 10 e 20: </p>
+    <input type="text" id="numero">
+    <button onClick="verifica()">Verificar</button>
+    <p id="msg"></p>
+    <script>
+        function verifica() {
+            var x = document.getElementById('numero').value;
+            try{
+                if (x == '') throw 'Informe um valor.';
+                if (isNaN(x)) throw 'Você precisa informar um número.';
+
+                document.getElementById('msg').innerHTML = 'Perfeito! O valor está correto.';
+
+            } catch (erro) {
+                document.getElementById('msg').innerHTML = 'Erro: ' + erro;
+            }   
+        }
+    </script>
+</body>
+</html>
